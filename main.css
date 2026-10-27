@@ -1,0 +1,123 @@
+
+body{
+    margin-top:-8px;
+    padding:0;
+    font-family:Inter;
+}
+
+nav{
+    background-color:white;
+    display:flex;
+    position:relative;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:25px;
+    font-weight:500;
+    padding: 1em 1em;
+}
+
+.first-name{
+    color:black;
+}
+
+.surname{
+    color:rgb(27, 122, 255);
+}
+
+/**#menu-toggle{
+    display:none;
+}
+
+#menu-icon{
+    display:none;
+    position:relative
+}
+
+#menu-icon > span{
+    color:black;
+    border-radius:3px;
+    gap:2px;
+}**/
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    border-radius:10px;
+    background-color:rgb(150, 201, 253);
+    border-color:rgb(255, 19, 19);
+    padding:1em 1em;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links a{
+    text-decoration:none;
+    font-size:17px;
+    font-weight:100;
+    color:black;
+    transition:color 0.3s;
+    padding:1em 1em;
+}
+
+.nav-links a:hover{
+    color:rgb(27, 122, 255);
+}
+
+.landing-page{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.landing-page-text{
+    flex:1;
+    max-width:50%;
+    padding:2em 2em;
+}
+
+.landing-page-text h1{
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.landing-page-text p{
+    margin-bottom:50px;
+    font-weight:500;
+    margin-bottom:50px;
+}
+
+.landing-page-image{
+    flex:1;
+    max-width:100%;
+}
+
+.landing-page-image img{
+    object-fit:contain;
+    height:80vh;
+    width:60vw;
+}
+
+.landing-page-text button{
+    padding:1em 1em;
+    border-radius:7px;
+    background-color:rgb(150, 201, 253);
+    color:black;
+    font-size:15px;
+    border-color:transparent;
+    transition:background-color 0.3s ease;
+    transition:box-shadow 0.3s ease;
+    transition:color 0.3s ease;
+}
+
+.landing-page-text button:hover{
+    background-color:rgb(174, 104, 255);
+    box-shadow: rgb(209, 169, 255) 0 0 5px 5px;
+    color:white;
+}
