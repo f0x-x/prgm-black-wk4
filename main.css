@@ -23,6 +23,16 @@ nav{
     color:black;
 }
 
+.gradient-custom {
+  /* fallback for old browsers */
+    background: #30cfd0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(48,207,208,1), rgba(51,8,103,1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(48,207,208,1), rgba(51,8,103,1))
+}
 
 /**#menu-toggle{
     display:none;
@@ -73,6 +83,7 @@ nav{
     color:#526273;
     text-align:center;
     font-size:0.9rem;
+    background-color:rgb(255, 255, 255);
 }
 
 .page-footer p{
