@@ -66,6 +66,23 @@ nav{
     color:rgb(27, 122, 255);
 }
 
+.page-footer{
+    margin:2em 2em 0;
+    padding:1.25em 0;
+    border-top:1px solid #d9e2ec;
+    color:#526273;
+    text-align:center;
+    font-size:0.9rem;
+}
+
+.page-footer p{
+    margin:0;
+}
+
+.page-footer strong{
+    color:#1f2937;
+}
+
 .landing-page{
     position:relative;
     display:flex;
